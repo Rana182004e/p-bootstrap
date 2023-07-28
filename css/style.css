@@ -1,0 +1,120 @@
+
+ 
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  :root{
+    --bgcolor:#F4511E;
+
+    }
+.mybgcolor{
+    background-color:var(--bgcolor)!important;
+}
+.mytextcolor{
+    color:var(--bgcolor)!important;
+}
+
+
+
+
+@font-face{
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
+
+
+
+#services,#portfolio{
+  font-family: "lato";
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+filter: none!important;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+  color: var(--bgcolor)!important;
+  background-image: none!important;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 50%!important;
+  background-color: white!important;
+  color:  2px solid var(--bgcolor)!important;
+  opacity:1!important;
+  
+}
+.carousel-indicators .active{
+  background-color:var(--bgcolor)!important;
+}
+.btn-primary{
+  background-color: var(--bgcolor)!important ;
+  color: white!important;
+  border: 1px solid var(--bgcolor)!important;
+
+
+}
+.btn-primary:hover{
+  background-color:  white!important ;
+  color: var(--bgcolor)!important ;
+  border: 1px solid var(--bgcolor)!important;
+  
+
+}
+
+
+
+
+
+.card {
+  border: 1px solid #f4511e;
+  border-radius:0px;
+  transition: box-shadow 0.5s;
+}
+
+.card:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.btn:focus-visible {
+  background-color: #fff;
+  color: aquamarine;
+}
+
+
+
+/*start less than medium size*/
+@media screen and (max-width:767px) {
+  .navbar-nav{
+      border-top: 3px solid #ddd;
+  }
+  .input-group {
+      width: 90%!important;
+  }
+  
+}
